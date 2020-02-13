@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/impress-demo.css" />
+    <link rel="stylesheet" href="css/fn.css" />
+    <link rel="stylesheet" href="./css/myStyles.css" />
+    <title>react in monorepo</title>
+  </head>
+  <body class="impress-not-supported">
+    <div class="fallback-message">
+      <p>
+        Your browser <b>doesn't support the features required</b> by impress.js,
+        so you are presented with a simplified version of this presentation.
+      </p>
+      <p>
+        For the best experience please use the latest <b>Chrome</b>,
+        <b>Safari</b> or <b>Firefox</b> browser.
+      </p>
+    </div>
+
+    <div id="impress">
+      <div class="step  farsi cn" data-x="-1000" data-y="-1500">
+        <q>
+          <strong>بسم الله الرحمن الرحیم</strong>
+        </q>
+      </div>
+      <div
+        data-x="-1000"
+        data-y="-1400"
+        data-scale="0.25"
+        class="step farsi cn"
+      >
+        <div>
+          در آن نفس که بمیرم در آرزوی تو باشم
+          <br />
+          بدان امید دهم جان که خاک کوی تو باشم
+        </div>
+      </div>
+      <div class="step h-slide farsi cn" data-x="0" data-y="-1500">
+        <strong>
+          داستان مونوریپو
+        </strong>
+      </div>
+
+      <div
+        class="step h-slide farsi cn"
+        data-scale="0.25"
+        data-x="0"
+        data-y="-1350"
+      >
+        <div class="medium-description">
+          شرکت های بزرگ برای توسعه نرم افزار توی همه پلتفرم ها نیاز به نظم،
+          توسعه پذیری سریع و آسان، نگهداری آسان و امن و … داشتن.
+          <br />
+          که با روش های موجود که برای هر پلتفرم باید تیم جداگانه با نظم منحصر به
+          پلتفرم و قوائد توسعه منحصر به هر پلتفرم وجود داشته باشه دچار کهولت و
+          کرختی شده بودند.
+          <br />
+          <strong> باید چــــــــــــــــــــــــی کار میکردند </strong>
+        </div>
+      </div>
+
+      <div class="step farsi cn" data-scale="0.05" data-x="0" data-y="-1300">
+        دنبال یه راه که نظم یگانه و توسعه پذیری یگانه و خیلی چیزای یگانه دیگه
+        داشته باشه میگشتند که اسمش شد
+        <strong>
+          مونوریپـــــــــــــــــــــــــــــــــــــو
+        </strong>
+      </div>
+
+      <div class="step farsi cn" data-x="1000" data-y="-1500">
+        <strong>چه ابزارهایی وجود دارم</strong>
+        <div class="cnt-custom-link">
+          <a class="custom-link" href="https://lerna.js.org" target="_blank">
+            #lerna
+          </a>
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://classic.yarnpkg.com/en/docs/workspaces/"
+            target="_blank"
+          >
+            #yarn_workspaces
+          </a>
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://pnpm.js.org/en/workspaces"
+            target="_blank"
+          >
+            #pnpm_workspace
+          </a>
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://docs.bit.dev/docs/workspace"
+            target="_blank"
+          >
+            #bit_workspace
+          </a>
+        </div>
+        <div class="medium-description ">بریم چندتا نمونه ببینیم</div>
+      </div>
+
+      <!-- timeline -->
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-16000"
+        data-z="40000"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/react.png" alt="" />
+          <strong>
+            React
+          </strong>
+        </div>
+        <div class="medium-description ">
+          ریکت توی پروژه های متخلف از مونوریپو استفاده کرده مثل :
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/facebook/react"
+            target="_blank"
+          >
+            #react
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/facebook/create-react-app"
+            target="_blank"
+          >
+            #create_react_app
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-14500"
+        data-z="36000"
+        data-rotate="180"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/react2.jpeg" alt="" />
+          <strong>
+            React یه سری چیزای دیگه با
+          </strong>
+        </div>
+
+        <div class="medium-description">
+          ابزارهای معروفی که خود فیسبوک توسعه نداده ولی برای React و React
+          Native ساخته شدن
+        </div>
+        <div class="cnt-custom-link en">
+          <a
+            class="custom-link"
+            href="https://github.com/prevwong/craft.js"
+            target="_blank"
+          >
+            #craft
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/react-navigation/react-navigation"
+            target="_blank"
+          >
+            #react-navigation
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/Rocketseat/unform"
+            target="_blank"
+          >
+            #unform
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/mui-org/material-ui"
+            target="_blank"
+          >
+            #material-ui
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/gatsbyjs/gatsby"
+            target="_blank"
+          >
+            #gatsby
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/ReactTraining/react-router"
+            target="_blank"
+          >
+            #react-router
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/ionic-team/ionic"
+            target="_blank"
+          >
+            #ionic
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/styled-components/styled-components"
+            target="_blank"
+          >
+            #styled-components
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-13000"
+        data-z="32000"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/next.png" alt="" />
+          <strong>
+            Next JS
+          </strong>
+        </div>
+
+        <div class="medium-description ">
+          یه فریم ورک برای پردازش React سمت سرور.
+          <br />
+          <strong>
+            شگفت انگیزه
+          </strong>
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/zeit/next.js"
+            target="_blank"
+          >
+            #nextJS
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-11500"
+        data-z="28000"
+        data-rotate="180"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/vue.png" alt="" />
+          <strong>
+            Vue JS
+          </strong>
+        </div>
+
+        <div class="medium-description ">
+          یه فریم ورک که میخواد جای React رو بگیره 😂😂
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/vuejs/vue"
+            target="_blank"
+          >
+            #Vue
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/cheapsteak/npmcharts.com"
+            target="_blank"
+          >
+            #npmCharts
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/nuxt/nuxt.js"
+            target="_blank"
+          >
+            #nuxt
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-10000"
+        data-z="22000"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/angular.svg" alt="" />
+          <strong>
+            Angular
+          </strong>
+        </div>
+
+        <div class="medium-description">
+          یه فریم روک که قبلا جای React بود 😇😇
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/angular/angular"
+            target="_blank"
+          >
+            #Angular
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/mseemann/angular2-mdl"
+            target="_blank"
+          >
+            #angular2-mdl
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/fulls1z3/ngx-auth"
+            target="_blank"
+          >
+            #ngx-auth
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/MurhafSousli/ngx-progressbar"
+            target="_blank"
+          >
+            #ngx-progressbar
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-8500"
+        data-z="18000"
+        data-rotate="180"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/babel.png" alt="" />
+          <strong>
+            Babel
+          </strong>
+        </div>
+
+        <div class="medium-description ">
+          بابل چی هست : یه کامپایلر برای جاواسکریپت که تقریبا همه ی پروژه های
+          بزرگ برای تبدیل جاواسکریپت ۶ و ۷ و ۸ و ۹ به ۵.۱ یا هر چیز دیگه ازش
+          استفاده میکنن
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/babel/babel"
+            target="_blank"
+          >
+            #babel
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-7000"
+        data-z="12000"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/purgecss.png" alt="" />
+          <strong>
+            Purge CSS
+          </strong>
+        </div>
+
+        <div class="medium-description">
+          پاک کردن css های بیخودی تو هر جا
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/FullHuman/purgecss"
+            target="_blank"
+          >
+            #purgecss
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-5000"
+        data-z="8000"
+        data-rotate="180"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/ar.jpg" alt="" />
+          <strong>
+            Model Viewer
+          </strong>
+        </div>
+
+        <div class="medium-description">
+          یه فریم ورک از گوگل برای پیاده سازی ar توی وب
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/google/model-viewer"
+            target="_blank"
+          >
+            #model-viewer
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-3500"
+        data-z="2000"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/cypress.png" alt="" />
+          <strong>
+            cypress
+          </strong>
+        </div>
+
+        <div class="medium-description">
+          ازش خر وارد نمیشه متاسفانه 🤐 باهاش هر چیزی توی مرورگر اجرا بشه رو تست
+          میکنن
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/cypress-io/cypress"
+            target="_blank"
+          >
+            #cypress
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-2000"
+        data-z="-5000"
+        data-rotate="180"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/algolia.png" alt="" />
+          <strong>
+            algoliasearch
+          </strong>
+        </div>
+
+        <div class="medium-description">
+          یه فریم ورک برای کار کردن با algolia
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/algolia/algoliasearch-client-javascript"
+            target="_blank"
+          >
+            #algoliasearch
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="-500"
+        data-z="-12000"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/dejavu.svg" alt="" />
+          <strong>
+            dejavu
+          </strong>
+        </div>
+
+        <div class="medium-description">
+          یه وب UI عالی برای Elasticsearch
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/appbaseio/dejavu"
+            target="_blank"
+          >
+            #dejavu
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="step farsi cn"
+        data-x="6000"
+        data-y="1000"
+        data-z="-18000"
+        data-rotate="180"
+        data-scale="3"
+      >
+        <div class="titr-pic">
+          <img src="./image/pngs/china.jpeg" alt="" />
+          <img src="./image/pngs/china2.png" alt="" />
+          <strong>
+            این چینیا
+          </strong>
+        </div>
+
+        <div class="medium-description">
+          اینارو هیچ کدوم رو نمیشناسم ولی تا دلت بخواد چینیا با
+          مونوریپـــــــــــــــــــــــــــــــــــــو پروژه خوب زدن 🧐
+        </div>
+        <div class="cnt-custom-link">
+          <a
+            class="custom-link"
+            href="https://github.com/areslabs/alita"
+            target="_blank"
+          >
+            #alita
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/NervJS/taro"
+            target="_blank"
+          >
+            #taro
+          </a>
+          <a
+            class="custom-link"
+            href="https://github.com/alibaba/ice"
+            target="_blank"
+          >
+            #ice
+          </a>
+        </div>
+      </div>
+
+      <!-- end of timeline -->
+
+      <div class="step farsi cn" data-x="4000" data-y="1000">
+        <strong>تیم ما</strong>
+        <div class="team-images">
+          <div class="person">
+            <img src="./image/constructors/dr.rastegar.jpg" alt="" />
+            <div class="name">علی رستگار</div>
+          </div>
+          <div class="person">
+            <img src="./image/constructors/shahab.jpg" alt="" />
+            <div class="name">شهاب شریفی</div>
+          </div>
+          <div class="person">
+            <img src="./image/constructors/khodam.jpg" alt="" />
+            <div class="name">سید امیر حسینی</div>
+          </div>
+          <div class="person">
+            <img src="./image/constructors/talla.jpg" alt="" />
+            <div class="name">مهدی تعالی</div>
+          </div>
+          <div class="person">
+            <img src="./image/constructors/seif.jpg" alt="" />
+            <div class="name">امیرحسین سیف</div>
+          </div>
+          <div class="person">
+            <img src="./image/constructors/saleh.jpg" alt="" />
+            <div class="name">صالح منتظران</div>
+          </div>
+          <div class="person">
+            <img src="./image/constructors/akefi.jpg" alt="" />
+            <div class="name">احسان عاکفی</div>
+          </div>
+          <div class="person">
+            <img src="./image/constructors/kgr.jpg" alt="" />
+            <div class="name">علی کارگر</div>
+          </div>
+          <div class="person">
+            <img src="./image/constructors/mahdi.jpg" alt="" />
+            <div class="name">سید مهدی حسینی</div>
+          </div>
+          <div class="person">
+            <img src="./image/constructors/meyari.jpg" alt="" />
+            <div class="name">امیرحسین معیاری</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/impress.js"></script>
+    <script>
+      impress().init();
+    </script>
+  </body>
+</html>
